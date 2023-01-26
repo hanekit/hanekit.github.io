@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: page
 titles:
   # @start locale config
   en      : &EN       Home
@@ -12,20 +12,16 @@ titles:
   zh-CN   : *ZH_HANS
   zh-SG   : *ZH_HANS
   # @end locale config
-show_title: true
-articles:
-  data_source: site.posts
-  article_type: BlogPosting
-  show_cover: false
-  show_excerpt: true
-  show_readmore: true
-  show_info: true
+show_title: false
 ---
 <div class="layout--home">
   {%- include paginator.html -%}
 </div>
+
 <script>
   {%- include scripts/home.js -%}
 </script>
+
+<iframe src='https://my.spline.design/component3diconscopy-4c8d1fcb8e80989dfeeba9d91a0b6de3/' frameborder='0' width='100%' height='100%'></iframe>
 
 {{ content }}
